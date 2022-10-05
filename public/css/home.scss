@@ -1,0 +1,22 @@
+@import "global";
+.main {
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+}
+
+.top-bar {
+    @include fixed-top-bar(100%, fixed, 0, 0);
+    @include flex(center, 5rem);
+    background-color: aquamarine;
+}
+
+.logo{
+    flex:0.5;
+    justify-self: flex-start;
+}
+.nav-bar {
+    ul {
+        @include flex(space-between, 20px);
+    }
+}
