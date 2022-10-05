@@ -25,8 +25,19 @@
                     <a href="
                     ">Contact Us</a>
                 </li>
+                <li>
+                    <a href="
+                    ">Contact Us</a>
+                </li>
+                <li>
+                    <a href="
+                    ">Contact Us</a>
+                </li>
             </ul>
         </div>
+     </div>
+     <div class="cv-maker-img">
+        
      </div>
      <div class="footer">
 

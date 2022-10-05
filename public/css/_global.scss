@@ -14,15 +14,6 @@ li {
     list-style-type: none;
 }
 
-// ul{
-//     display: flex;
-//     justify-content: center;
-//     column-gap: 20px;
-//     @media all and(max-width:600px) {
-//        align-items: center;
-//         flex-direction: column;
-//     }
-// }
 
 @mixin fixed-top-bar($width, $pos, $top, $left) {
     width: $width;
@@ -31,11 +22,13 @@ li {
     left: $left;
 }
 
-@mixin fixed-footer($width, $pos, $bottom, $left) {
+@mixin fixed-footer($width, $pos, $bottom, $left,$color) {
     width: $width;
     position: $pos;
     bottom: $bottom;
     left: $left;
+    min-height: 2rem;  
+    background-color: $color;
 }
 
 @mixin  flex($js-content,$col-gap) {

@@ -39,7 +39,8 @@ li {
           justify-content: center;
   -webkit-column-gap: 5rem;
           column-gap: 5rem;
-  background-color: aquamarine;
+  background-color: rgba(235, 239, 238, 0.096);
+  padding: 1rem;
 }
 
 .logo {
@@ -47,6 +48,13 @@ li {
       -ms-flex: 0.5;
           flex: 0.5;
   justify-self: flex-start;
+  text-align: left;
+}
+
+.nav-bar {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .nav-bar ul {
@@ -58,5 +66,14 @@ li {
           justify-content: space-between;
   -webkit-column-gap: 20px;
           column-gap: 20px;
+}
+
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  min-height: 2rem;
+  background-color: rgba(138, 245, 124, 0.9);
 }
 /*# sourceMappingURL=home.css.map */
